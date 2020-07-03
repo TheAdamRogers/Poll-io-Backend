@@ -1,6 +1,3 @@
-#BRVA Backend
-# This is a javascript project which is the backend of the boardroom voting app,
-#(BRVA.) 
+# Poll-io Backend
 
-#Responses and patient data flows through this to their needed area and push to 
-#the firebase.
+A backend created in express.js which handles the data for the polls being used. It's a simple backend that transfers the data back and fourth from the mobile and web applicaitons, it validates the data using the JOI framework and transfers the data between a MYSQL database hosted on AWS (Not an active database.).
